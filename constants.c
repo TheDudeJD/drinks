@@ -2352,10 +2352,10 @@ CHECK_TABLE_SIZE(drinknames, NUM_LIQ_TYPES + 1);
 /** Define the effect of liquids on hunger, thirst, and drunkenness, in that
  * order. See values.doc for more information.
  * @pre Must be in the same order as the defines. */
-int drink_aff[][3] = {{0, 1, 10}, {3, 2, 5},   {5, 2, 5},  {2, 2, 5},  {1, 2, 5},  {6, 1, 4},
-                      {0, 1, 8},  {10, 0, 0},  {3, 3, 3},  {0, 4, -8}, {0, 3, 6},  {0, 1, 6},
-                      {0, 1, 6},  {0, 2, -1}, {0, 1, -2},  {0, 0, 13}, {0, 1, 10}, {0, 1, 10},
-					  {5, 2, 5},  {0, 1, 4},  {0, 1, 10},{0, 2, -1}};
+int drink_aff[][3] = {{0, 1, 10}, {3, 2, 5},   {5, 2, 5},   {2, 2, 5},  {1, 2, 5},  {6, 1, 4},
+                      {0, 1, 8},  {10, 0, 0},  {3, 3, 3},   {0, 4, -8}, {0, 3, 6},  {0, 1, 6},
+                      {0, 1, 6},  {0, 2, -1},  {0, 1, -2},  {0, 0, 13}, {0, 1, 10}, {0, 1, 10},
+					  {5, 2, 5},  {0, 1, 4},   {0, 1, 10},  {0, 2, -1}};
 
 /** Describes the color of the various drinks.
  * @pre Must be in the same order as the defines.
